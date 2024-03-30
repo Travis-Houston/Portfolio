@@ -5,7 +5,7 @@ import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF("./cyberpunklaptop/scene.gltf");
+  const computer = useGLTF("./Cyberpunk/scene.gltf");
   return (
     <mesh>
       <ambientLight />
@@ -21,8 +21,8 @@ const Computers = ({ isMobile }) => {
       />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.013 : 0.018}
-        position={isMobile ? [0, -2, -1.5] : [-0.25, -2.25, -1.5]}
+        scale={isMobile ? 1 : 1.3}
+        position={isMobile ? [0, -2, -1.5] : [-0.25, -2.75, 0]}
       />
     </mesh>
   );
