@@ -12,11 +12,13 @@ import {
     git,
     docker,
     mindX,
+    VIoT,
     smartcar,
     snakegame,
     doorbell,
     ubuntu,
     python,
+    nestjs,
     opencv,
     php,
   } from "../assets";
@@ -73,6 +75,10 @@ import {
       icon: reactjs,
     },
     {
+      name: "NestJS",
+      icon: nestjs,
+    },
+    {
       name: "Node JS",
       icon: nodejs,
     },
@@ -112,11 +118,22 @@ import {
       company_name: "MindX",
       icon: mindX,
       iconBg: "#383E56",
-      date: "March 2024 - now",
+      date: "March 2024 - October 2024",
       points: [
         "In charge of Teaching children and Teens coding robotic using Python",
         "Collaborating mentors to deliver and support Students in class.",
         "In charge of conducting trial classes for children wants to try out Robotics."
+      ],
+    },
+    {
+      title: "IoT Engineer/Developer Intern",
+      company_name: "VIoT Technology JSC.",
+      icon: VIoT,
+      iconBg: "#383E56",
+      date: "June 2024 – Nov 2024",
+      points: [
+        "Configured, supported, and resolved issues related to LoRaWAN sensors, gateways, and server operations, enhancing system reliability.",
+        "Developed backend application servers to provide seamless access to sensor data, with a focus on maintaining coding standards and efficiency."
       ],
     },
   ];

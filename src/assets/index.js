@@ -18,10 +18,12 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import ubuntu from "./tech/ubuntu.png";
 import python from "./python.png";
-import php from "./tech/php.png"
+import php from "./tech/php.png";
+import nestjs from "./tech/nestjs.png";
 
 
 import mindX from "./company/mindX.jpg";
+import VIoT from "./company/VIoT.jpg";
 
 import smartcar from "./smartcar.png";
 import snakegame from "./snakegame.jpg";
@@ -42,6 +44,7 @@ export {
   git,
   html,
   javascript,
+  nestjs,
   mongodb,
   nodejs,
   reactjs,
@@ -49,6 +52,7 @@ export {
   php,
   python,
   mindX,
+  VIoT,
   smartcar,
   snakegame,
   doorbell,
