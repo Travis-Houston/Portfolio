@@ -27,7 +27,7 @@ import VIoT from "./company/VIoT.jpg";
 
 import smartcar from "./smartcar.png";
 import smartContract from "./SmartContract.jpg"
-import weatherStation from "./weatherStation.jpg";
+import weatherStation from "./WeatherStation.jpg";
 import snakegame from "./snakegame.jpg";
 import doorbell from "./doorbell.jpg";
 
