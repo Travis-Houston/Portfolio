@@ -26,6 +26,8 @@ import mindX from "./company/mindX.jpg";
 import VIoT from "./company/VIoT.jpg";
 
 import smartcar from "./smartcar.png";
+import smartContract from "./SmartContract.jpg"
+import weatherStation from "./weatherStation.jpg";
 import snakegame from "./snakegame.jpg";
 import doorbell from "./doorbell.jpg";
 
@@ -54,6 +56,8 @@ export {
   mindX,
   VIoT,
   smartcar,
+  smartContract,
   snakegame,
+  weatherStation,
   doorbell,
 };

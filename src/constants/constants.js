@@ -21,6 +21,8 @@ import {
     nestjs,
     opencv,
     php,
+    smartContract,
+    weatherStation,
   } from "../assets";
   
   export const navLinks = [
@@ -161,6 +163,68 @@ import {
       source_code_link: "https://github.com/Travis-Houston/Akathon2023-Opencv-smart-car.git",
     },
     {
+      name: "Decentralized Trading Platform",
+      description:
+        "Developed a smart contract platform to facilitate secure and transparent transactions.",
+      tags: [
+        {
+          name: "ExpressJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "ReactJS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Smart Contract",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: smartContract,
+      source_code_link: "https://github.com/asianmurphyCo/Decentralized-Trading-Platform.git",
+    },
+    {
+      name: "Healthy Food E-commerce Website",
+      description:
+        "A group project for the course COS40006 – Computing Technology Project B. Developing an E-commerce platform streamlining sales and delivery of plant-based products.",
+      tags: [
+        {
+          name: "NestJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "TypeScript",
+          color: "pink-text-gradient",
+        },
+      ],
+      source_code_link: "https://github.com/heyyytamvo/HealthyFoodApplication_BackEnd.git",
+    },
+    {
+      name: "Swinburne Weather Service Project",
+      description:
+        "The Swinburne Weather Service utilizes Edge Computing to optimize and enhance the local and global process of weather monitoring.",
+      tags: [
+        {
+          name: "Arduino",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Python",
+          color: "green-text-gradient",
+        },
+        {
+          name: "C++",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: weatherStation,
+      source_code_link: "https://github.com/asianmurphyCo/Weather-Station-Edge.git",
+    },
+    {
       name: "OpenCV Snake Game",
       description:
         "A snake game that utilize OpenCV and CVzone module to track hand movement as snake.",
@@ -178,7 +242,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: snakegame,
+      image:snakegame,
       source_code_link: "https://github.com/Travis-Houston/OpenCV-Snake-Game.git",
     },
     {
